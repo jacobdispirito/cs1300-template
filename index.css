@@ -1,1 +1,68 @@
-/* Put your style information here! */
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+
+
+.w3-content{
+    max-width: 80% !important;
+}
+.third{
+    margin-top: 50%;
+    margin-bottom: 50%; 
+}
+.w3-third.w3-center img{
+    width:95%
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .col-container {
+    display: table;
+    width: 100%;
+    
+  }
+  .col {
+    display: table-cell;
+    padding: 0 16px;
+    width:33.3333%;
+    color:white;
+  
+  }
+  
+  .observationTable li{
+      padding-bottom: 7%
+      
+  }
+  
+  .observationTable{
+      padding-left: 3%
+      
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .col { 
+      display: block;
+      width: 100%;
+    }
+  }
+
+.drawings{
+    width:70%;
+    height:70%;
+}
+.interviewContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.userRow{
+    min-height: 33.333%;
+    width:100%;
+    overflow:visible;
+    color:white;
+    padding-left: 3%;
+    padding-right: 3%;
