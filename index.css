@@ -51,8 +51,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   }
 
 .drawings{
-    width:70%;
-    height:70%;
+    height:500px;
+    width: 45%;
+    border: solid; 
+    border-color: black;
 }
 .interviewContainer{
     display: flex;
@@ -66,3 +68,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     color:white;
     padding-left: 3%;
     padding-right: 3%;
+
+}
+.questions{
+  padding-left: 2%;
+}
+.questions p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
